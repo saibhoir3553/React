@@ -1,0 +1,14 @@
+.myclass{
+  background-color: rgb(242, 246, 246);
+  text-align: center;
+  display: grid;
+
+}
+.mybook{
+   display: grid; 
+}
+
+.navbar{
+  text-decoration: none;
+  padding-left: 2px;
+}

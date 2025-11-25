@@ -10,7 +10,7 @@
 // import ControlInputForm from "./Forms/ControlInputForm";
 // import MultiInputForm from "./Forms/MultiInputForm";
 // import Use_Ref_Hook_Demo from "./Use_REF_Hook/Use_Ref_Hook_Demo";
-// import Prop_Drilling_Demo from "./Forms/PropDrilling/Prop_Drilling_Demo";
+import Prop_Drilling_Demo from "./Forms/PropDrilling/Prop_Drilling_Demo";
 import { ReducerCounter } from "./Reducer/ReducerCounter";
 import { BrowserRouter, Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
@@ -43,7 +43,7 @@ function App() {
   
 
     <div className="myclass">
-      <BrowserRouter>
+      {/* <BrowserRouter>
           <Routes>
              <Route path='/Main' element={<Main/>} />
              <Route path='/Home' element={<Home/>} />
@@ -51,7 +51,7 @@ function App() {
              <Route path='/products' element={<Products/>} />
              <Route path='/products/:productId' element={<SingleProduct/>}/>
           </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
       {/* <h1>Hello World</h1>
       <h3>Welcome to react</h3> */}
       {/* <Greet/>
@@ -64,7 +64,7 @@ function App() {
         {/* <ControlInputForm></ControlInputForm> */}
         {/* <MultiInputForm></MultiInputForm> */}
         {/* <Use_Ref_Hook_Demo></Use_Ref_Hook_Demo> */}
-        {/* <Prop_Drilling_Demo></Prop_Drilling_Demo> */}
+        <Prop_Drilling_Demo></Prop_Drilling_Demo> 
         {/* <ReducerCounter></ReducerCounter> */}
         
         
